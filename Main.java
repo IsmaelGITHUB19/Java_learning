@@ -24,21 +24,6 @@ public class Main {
        System.out.println(cadastros[0].getNome() + " " + cadastros[1].getIdade() + " ");
        
        funcionario Felipe = new funcionario("Felipe", 33, "Masculino", "Matutino - Vespertino", 3500);
-       System.out.println(Felipe.getNome()+ " " + Felipe.getIdade() + " " + Felipe.getsexo() + " " + Felipe.getSalario() + " " + Felipe.getHorario()); 
-        
-       
-       
-        // Rotina de ordenação considerando a ordem natural (por título)
-        
-         //  Arrays.sort(livros);
-       //System.out.println("--- Ordenação por Título (Ordem Natural) ---");
-       //for (livro livro : livros) {
-         //  System.out.println(livro);
-       //}
-       // Rotina de ordenação considerando o ano de publicação
-
-       // Rotina de ordenação considerando o autor
-
-       // Rotina de ordenação considerando o custo-benefício
+       System.out.println(Felipe.getNome()+ " " + Felipe.getIdade() + " " + Felipe.getsexo() + " " + Felipe.getSalario() + " " + Felipe.getHorario());
     }
  }
